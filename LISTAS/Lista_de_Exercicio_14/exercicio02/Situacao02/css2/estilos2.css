@@ -1,0 +1,16 @@
+.configuracao {
+    font-family: 'Times New Roman';
+    color: red;
+    background-color: yellow;
+     
+}
+h1.configuracao {
+    font-size: 50px;
+}
+h2.configuracao {
+    font-size: 35px;
+    text-decoration: underline;
+}
+p.configuracao, strong.configuracao {
+    font-size: 20px;
+}
