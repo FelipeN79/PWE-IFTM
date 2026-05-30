@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Aprenda Web Design na Prática</title>
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="">HTML5</a></li>
+
+                <li>
+                    <a href="">CSS3</a></li>
+
+                <li> <a href="">JavaScript</a>
+                </li>
+            </ul>
+        </nav>
+
+
+
+
+
+
+
+
+
+        <img src="imagens/topo.png" alt="">
+
+
+    </header>
+
+    <main>
+        <section>
+            <h1>Aprendendo Web Design na Prática</h1>
+            <h2>HTML5,CSS3 e JavaScript</h2>
+        </section>
+
+        <section>
+
+        </section>
+        <section></section>
+        <section></section>
+        <h2>Conheça nosso portifólio</h2>
+        <img src="imagens/desktop " alt=" ">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque tenetur doloremque hic corrupti necessitatibus quis molestiae vel eligendi nisi saepe, eveniet sunt voluptates quia iusto distinctio sequi facere. Ex, quae.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam commodi ullam quasi hic! Voluptate, at facilis laudantium nesciunt ducimus praesentium cumque rem aliquid sed recusandae nobis quam amet exercitationem ex!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores reprehenderit magnam maxime aperiam esse. Quae exercitationem itaque aliquam eveniet harum officiis asperiores quibusdam cum praesentium assumenda, rem veritatis nesciunt voluptates.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo sed autem, voluptates, molestiae expedita vitae sint obcaecati, cupiditate facilis soluta quam nulla esse? At, dignissimos voluptatum. Illum perspiciatis architecto iure.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, beatae quas ipsum tempora rem, repudiandae natus porro soluta est reprehenderit minus totam nam quam ab doloribus sapiente omnis distinctio praesentium?</p>
+
+
+
+
+
+
+
+    </main>
+    <section></section>
+    <footer>
+        <a href="imagens/webdesing02 "></a>
+    </footer>
+
+</body>
+
+</html>

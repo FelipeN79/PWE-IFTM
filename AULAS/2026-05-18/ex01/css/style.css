@@ -1,0 +1,24 @@
+/*w3school - Componentes Flexbox CSS*/ 
+/*Um flexbox sempre consiste em:
+
+Um contêiner flexível - O elemento pai (contêiner), onde a displaypropriedade é definida como flexouinline-flex
+Um ou mais itens flexíveis - Os filhos diretos do contêiner flexível tornam-se automaticamente itens flexíveis.*/ 
+
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+  display: flex;
+  background-color: DodgerBlue;
+  flex-direction: row;
+    justify-content: center;
+  
+}
+
+.container div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 24px;
+}

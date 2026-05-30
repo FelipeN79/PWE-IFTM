@@ -1,0 +1,18 @@
+
+/*Um recipiente flexível com três itens flexíveis.
+O elemento abaixo representa um contêiner flexível (a área azul) com três itens flexíveis */ 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  background-color: DodgerBlue;
+}
+.container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}

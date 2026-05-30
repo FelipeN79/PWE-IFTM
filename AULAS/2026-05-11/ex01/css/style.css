@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 80px;        
+    height: 80px;       
+    border-radius: 10px; 
+    background-image: url('../img/whatsapp.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+    border: none;
+    box-shadow: transparent;
+    transition: top 0.3s;
+}
+
+.box:hover {
+    top: 25px;
+}

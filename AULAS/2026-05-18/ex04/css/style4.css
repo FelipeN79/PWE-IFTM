@@ -1,0 +1,51 @@
+/*Contêiner flexível CSS
+Propriedades do contêiner flexível CSS
+O elemento contêiner flexível pode ter as seguintes propriedades:
+
+display- Deve ser definido como flexouinline-flex
+flex-direction- Define a direção de exibição dos itens flexíveis.
+flex-wrap- Especifica se os itens flexíveis devem ser quebrados em várias linhas ou não.
+flex-flow- Abreviação de propriedade para flex-directioneflex-wrap
+justify-content- Alinha os itens flexíveis quando eles não utilizam todo o espaço disponível no eixo principal (horizontalmente).
+align-items- Alinha os itens flexíveis quando eles não utilizam todo o espaço disponível no eixo transversal (vertical).
+align-content- Alinha as linhas flexíveis quando há espaço extra no eixo transversal e os itens flexíveis se repetem.
+Propriedade CSS flex-direction
+Essa flex-directionpropriedade especifica a direção de exibição dos itens flexíveis no contêiner flexível.
+
+Essa propriedade pode ter um dos seguintes valores:
+
+row(padrão)
+column
+row-reverse
+column-reverse*/
+/*Propriedade CSS flex-wrap
+A flex-wrappropriedade especifica se os itens flexíveis devem ser quebrados em várias linhas ou não, caso não haja espaço suficiente para eles em uma única linha flexível.
+
+Essa propriedade pode ter um dos seguintes valores:
+
+nowrap(padrão)
+wrap
+wrap-reverse*/
+
+*{margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    
+.container {
+  display: flex;
+  flex-wrap:  wrap-reverse;
+  background-color: DodgerBlue;
+  height: 200px;
+  align-items: flex-start;
+  align-content: space-between;
+
+}
+
+.container div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;  
+  font-size: 30px;
+}

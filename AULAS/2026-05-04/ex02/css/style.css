@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    padding: 100px;
+    text-align: center;
+    font-size: 50px;
+    
+    
+    
+}
+
+.btn {
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: all 0.1s;
+    padding: 15px 20px;
+    font-size: 20px;
+    margin-right: 10px;
+    width: 160px;
+    font-family: Verdana;
+    font-weight: bold;
+    
+}
+.btn-cadastrar{
+    background-color: rgb(132, 241, 132);
+    }
+.btn-cadastrar:hover{ background-color: darkgreen;}
+.btn-cadastrar:active{background-color: aqua;}
+
+.btn-alterar{
+    background-color: rgb(223, 223, 80);
+}
+.btn-alterar:hover   { background-color: goldenrod; }
+.btn-excluir{
+    background-color: rgb(235, 129, 129);
+}
+.btn-excluir:hover   { background-color: darkred; }
+
+.btn:hover {
+        box-shadow: 10px 10px 15px darkblue;
+    cursor: pointer;
+}
+
+.btn:active {
+    transform: translateX(10px) rotate(300deg) scale(0.9);
+}
