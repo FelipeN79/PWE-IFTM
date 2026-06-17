@@ -1,0 +1,333 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto';
+}
+
+body {
+
+    background-color: black;
+}
+
+header {
+    background-color: darkblue;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a:link,
+a:visited {
+
+    color: white;
+    text-decoration: none;
+    padding: 20px 15px;
+    display: inline-block;
+}
+
+header ul li a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.caixa_conteudo {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+section {
+    padding: 40px;
+}
+
+.section_topo {
+    background-color: rgb(211, 208, 208);
+    padding: 0;
+}
+
+.section_topo>img {
+    width: 100%;
+    max-height: 340px;
+    object-fit: cover;
+    object-position: center top;
+    display: block;
+}
+
+.section_topo>div {
+    padding: 40px;
+    text-align: left;
+}
+
+.section_topo h1 {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.section_topo h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.section_topo p {
+    color: black;
+    margin-bottom: 20px;
+}
+
+.button_topo {
+    color: white;
+    background-color: black;
+    padding: 10px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.button_topo:hover {
+    background-color: orangered;
+}
+
+.section_2 {
+    background-color: white;
+    text-align: justify;
+}
+
+.logos_container {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.logos_container img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.section_2 h2 {
+    margin: 20px 0px;
+}
+
+.section_2 h3 {
+    margin: 20px 0px 10px 0px;
+}
+
+.section_2 p {
+    margin-bottom: 15px;
+}
+
+.button_section_2 {
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.button_section_2:hover {
+    background-color: orangered;
+}
+
+.section_3 {
+    background-color: rgb(211, 208, 208);
+}
+
+.section_3 img {
+    width: 100%;
+    display: block;
+}
+
+.section_3 p {
+    padding: 15px 0px;
+    text-align: justify;
+}
+
+.button_section_3 {
+    color: white;
+    padding: 10px 30px;
+    background-color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.button_section_3:hover {
+    background-color: orangered;
+}
+
+.section_4 {
+    text-align: center;
+    background-color: white;
+}
+
+.section_4 h2 {
+    padding: 20px 0px;
+}
+
+.section_4 p {
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.button_section_4 {
+    padding: 10px 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.button_section_4:hover {
+    background-color: orangered;
+}
+
+.section_5 {
+    background-color: rgb(211, 208, 208);
+}
+
+.section_5 h2 {
+    margin-bottom: 20px;
+}
+
+.section_5 p {
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+.botoes_section_5 {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.button_section_5 {
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.button_section_5:hover {
+    background-color: orangered;
+}
+
+.button_2_section_5 {
+    padding: 10px 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.button_2_section_5:hover {
+    background-color: orangered;
+}
+
+.section_6 {
+    background-color: white;
+}
+
+.compromisso {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.compromisso_textos {
+    flex: 1;
+}
+
+.compromisso_textos h3 {
+    margin: 20px 0px 10px 0px;
+    font-size: 20px;
+}
+
+.compromisso_textos p {
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.compromisso_botoes {
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.button_agendar {
+    padding: 10px 25px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.button_agendar:hover {
+    background-color: orangered;
+}
+
+.button_compromissos {
+    padding: 10px 25px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.button_compromissos:hover {
+    background-color: orangered;
+}
+
+.compromisso_foto {
+    flex: 1;
+}
+
+.compromisso_foto img {
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+@media screen and (min-width: 768px) {
+    header ul {
+        justify-content: center;
+    }
+
+    .container {
+        flex-direction: row;
+    }
+}
