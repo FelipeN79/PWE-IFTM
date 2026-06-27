@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: #1e1f20;
+}
+
+.pagina-recursos {
+    background-color: #2b2d2f;
+}
+
+.pagina-recursos header, .pagina-recursos main, .pagina-recursos footer {
+    width: 90%;
+    margin: auto;
+}
+
+.pagina-recursos main {
+    background-color: white;
+    font-size: larger;
+}
+
+header {
+    background-color: black;
+}
+
+header h1 {
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    padding: 40px;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    background-color: #444749;
+}
+
+header nav ul li {
+    list-style: none;
+    
+}
+
+header nav ul li a:link, header nav ul li a:visited {
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header nav ul li a:hover {
+    background-color: white;
+    color: darkorange;
+    text-decoration: underline;
+
+}
+
+.imagem-topo {
+    background-image: url('../imagens/imagem_topo.jpg');
+    background-position: center 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 420px;
+}
+
+.apresentacao {
+    background-color: #e8e9ea;
+    text-align: center;
+}
+
+section {
+    padding: 35px;
+}
+
+section h1 {
+    color: #1e1f20;
+    display: inline-block;
+    font-size: 30px;
+    margin: 10px 0px 20px 0px;
+    transition: 0.4s;
+}
+
+section h1:hover {
+    transform: scale(1.05);
+}
+
+section h2 {
+    color: black;
+    display: inline-block;
+    margin: 10px 0px 20px 0px;
+    transition: transform 0.3s;
+}
+
+
+section h2:hover {
+    transform: scale(1.05);
+}
+
+section h3 {
+    color: black;
+    margin: 15px 0px;
+}
+
+section p {
+    margin: 15px 0px;
+    text-align: justify;
+}
+
+.apresentacao p, .destaque p {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.coluna {
+    width: 100%;
+}
+
+.imagem-recursos {
+    display: flex;
+    justify-content: center;
+}
+
+.foto-recursos {
+    background-image: url('../imagens/aprendendo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    height: 240px;
+    width: 70%;
+}
+
+.cartao {
+    background-color: white;
+    border: 1px solid #c0c2c4;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+
+.cartao:hover {
+    border: 3px solid #444749;
+    cursor: pointer;
+}
+
+.fundo-cinza {
+    background-color: #d4d5d6;
+}
+
+.fundo-azul {
+    background-color: #e8e9ea;
+}
+
+.imagem-conteudo {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.imagens-duplas {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.imagem-dupla {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 240px;
+    width: 100%;
+}
+
+.imagem-computadores {
+    background-image: url('../imagens/imagem1.png');
+}
+
+.imagem-codigo {
+    background-image: url('../imagens/imagem-codigo-1.jpg');
+}
+
+.imagem-dados {
+    background-image: url('../imagens/imagem-codigo-2.jpg');
+}
+
+.texto-abaixo {
+    margin: 25px 0px 0px 0px;
+}
+
+.lista {
+    margin: 20px 0px 20px 25px;
+}
+
+.lista li {
+    margin: 10px 0px;
+    list-style: none;
+}
+
+.botao:link, .botao:visited {
+    background-color: #444749;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+    margin: 10px 0px;
+    padding: 12px 20px;
+    text-decoration: none;
+}
+
+.botao:hover {
+    background-color: #1e1f20;
+    text-decoration: underline;
+}
+
+.destaque {
+    background-color: #1e1f20;
+    color: white;
+    text-align: center;
+}
+
+.destaque h2 {
+    color: white;
+}
+
+details {
+    margin: 15px 0px;
+}
+
+summary {
+    color: #444749;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+footer p {
+    margin: 15px 0px;
+}
+
+footer a:link, footer a:visited {
+    color: white;
+}
+
+footer a:hover {
+    color: #d4d5d6;
+}
+
+@media screen and (min-width: 768px) {
+    header h1 {
+        font-size: 44px;
+    }
+
+    header nav ul {
+        gap: 40px;
+        justify-content: center;
+    }
+
+    section > div {
+        width: 90%;
+        margin: auto;
+    }
+
+    .container {
+        flex-direction: row;
+    }
+
+    .imagem-topo {
+        height: 600px;
+    }
+
+    .imagens-duplas {
+        flex-direction: row;
+    }
+
+    .imagem-dupla {
+        height: 320px;
+        width: 48%;
+    }
+
+    .imagem-recursos {
+        justify-content: right;
+    }
+
+    .foto-recursos {
+        height: 300px;
+        width: 50%;
+    }
+
+    .apresentacao h1 {
+        font-size: 38px;
+    }
+}
